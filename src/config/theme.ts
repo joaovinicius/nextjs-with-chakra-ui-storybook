@@ -22,7 +22,11 @@ const customTheme = {
           height: '20px',
           borderRadius: '50%',
         }
-      }
+      },
+      medium: {
+        width: '250px',
+        height: '250px',
+      },
     }
   }
 }
