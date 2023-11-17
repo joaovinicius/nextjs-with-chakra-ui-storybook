@@ -6,6 +6,9 @@ const customTheme = {
       'html, body': {}
     }
   },
+  colors: {
+      primary: "#FFCB00",
+  },
   components: {}
 }
 
