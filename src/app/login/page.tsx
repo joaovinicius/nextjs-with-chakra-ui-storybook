@@ -1,12 +1,11 @@
 import Image from 'next/image'
-import styles from '../page.module.css'
-import AtomButton from '@/components/Atoms/Button'
+import LoginForm from '../login/FormLogin/formLogin'
 import { Button, ButtonGroup } from '@chakra-ui/react'
 
 export default function Login() {
   return (
    <>
-      <Button bg='primary' >Teste</Button>
+      <LoginForm/>
    </>
   )
 }
