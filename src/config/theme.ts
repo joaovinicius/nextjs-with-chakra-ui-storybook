@@ -1,22 +1,27 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const customTheme = {
-  styles: {
-    global: {
-      'html, body': {}
+  colors: {
+    brand: {
+      100: '#FFCB00',
     }
   },
   components: {
     Button: {
       variants: {
         'primary': {
-          color: 'white',
           bg: '#FFCB00',
-          borderRadius: 'full'
+          color: 'white'
         }
-      },
-      defaultProps: {
-        variant: 'primary'
+      }
+    },
+    Image: {
+      variants: {
+        'icon': {
+          width: '20px',
+          height: '20px',
+          borderRadius: '50%',
+        }
       }
     }
   }
