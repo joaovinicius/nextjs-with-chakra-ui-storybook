@@ -6,7 +6,20 @@ const customTheme = {
       'html, body': {}
     }
   },
-  components: {}
+  components: {
+    Button: {
+      variants: {
+        'primary': {
+          color: 'white',
+          bg: '#FFCB00',
+          borderRadius: 'full'
+        }
+      },
+      defaultProps: {
+        variant: 'primary'
+      }
+    }
+  }
 }
 
 export default extendTheme(customTheme)
